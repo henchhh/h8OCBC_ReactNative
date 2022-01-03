@@ -1,0 +1,7 @@
+# Gunakan file my-app dari folder Sesi49
+
+# React Fragment di dalam return()
+<></>
+
+# Install PropTypes
+npm install prop-types

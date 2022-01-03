@@ -1,0 +1,15 @@
+# Buat react app
+npx create-react-app my-app
+
+# Masuk ke direktori my-app
+cd my-app
+
+# Nyalakan react
+npm start
+
+# Buat folder components di dalam folder src dan buat file bernama Header.jsx
+
+# Import Header dan tambahkan <Header/> di dalam App.js
+
+# Buat pakai Typescript
+npx create-react-app react-typescript --template typescript

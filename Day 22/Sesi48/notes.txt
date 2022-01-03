@@ -1,0 +1,58 @@
+[ Callback ]
+> 
+
+npm install axios
+
+[ Instalasi ]
+# Buat folder dan masuk ke folder
+> mkdir reactApp
+> cd reactApp
+
+# Buat file package.json
+> npm init -y
+
+# Install React dan React Dom
+> npm install react --save
+> npm install react-dom --save
+
+# Install weback, webpack server, dan webpack api
+> npm install webpack --save-dev
+> npm install webpack-dev-server --save-dev
+> npm install webpack-cli --save-dev
+
+# Install babel dan pendukung lainnya
+> npm install @babel/core --save-dev
+> npm install @babel/node --save-dev
+> npm install @babel/preset-env --save-dev
+> npm install @babel/preset-react --save-dev
+> npm install babel-loader --save-dev
+
+# Install path dan webpack plugin
+> npm install path --save-dev
+> npm install html-webpack-plugin --save-dev
+
+# Buat folder src dan isi dengan index.html dan index.js
+> mkdir src
+> npm install touch-cli -g
+> touch src/index.html
+> touch src/index.js
+
+# Buat file webpack.config.js dan isi source code berdasarkan slide 26 Sesi17 
+> touch webpack.config.js
+
+# Buka file package.json dan tambahkan bagian scripts berdasarkan slide 27 Sesi17 
+"webpack": "webpack",
+    "start": "webpack serve",
+
+# Buka file index.html dan tambahkan bagian scripts berdasarkan slide 27 Sesi17
+
+# Buka file index.js dan tambahkan bagian scripts berdasarkan slide 28 Sesi17
+
+# Buat file bernama .babelrc di root directory dan isikan source code berdasarkan slide 28 Sesi17
+> touch .babelrc
+
+# Kompilasi dengan webpack dan menghasilkan folder build yang isinya index.html dan index.bundle.js
+> npm run webpack
+
+# Jalankan server dan buka aplikasi di browser
+> npm start
