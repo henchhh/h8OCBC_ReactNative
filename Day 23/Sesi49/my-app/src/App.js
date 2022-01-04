@@ -5,6 +5,7 @@ import Hero from './components/HeroName';
 import Users from './components/Users';
 import Baru from './components/Baru';
 import Button from './components/Button';
+import Counter from './components/Counter';
 
 function App() { //
   return ( // sama seperti render dari class component
@@ -19,6 +20,7 @@ function App() { //
         <Users/>
         <Baru batch={2} logo={logo}/>
         <Button name="Klik aku" />
+        <Counter />
         <a
           className="App-link"
           href="https://reactjs.org"

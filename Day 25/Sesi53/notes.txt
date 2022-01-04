@@ -1,0 +1,12 @@
+# mkdir flask-api
+# cd flask-api
+# py -m venv venv
+# venv\Scripts\activate
+# pip install flask python-dotenv
+# pip install -U flask-cors 
+# touch app.py dan masukkan source code sesuai slide halaman 5 Sesi22
+# touch .env dan masukkan source code sesuai slide halaman 6 Sesi22
+# coba Hello World di app.py sesuai source code slide halaman 7 Sesi22
+# flask run
+# npx create-react-app react-flask-app
+

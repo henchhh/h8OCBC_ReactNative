@@ -1,10 +1,14 @@
 .container{
   border: 1px solid #080808;
   box-shadow: -2px 0px 3px #888888, 2px 2px 3px #888888;
-  position: absolute;
+  position:fixed;
   top: 50px;
   left: 50px;
   right: 50px;
+}
+
+.wrapper{
+  padding: 0 50px;
 }
 
 .header {
@@ -24,7 +28,23 @@ hr{
   background-color: black;
 }
 
+.hrSmallWidth{
+  width: 300px;
+}
+
+.containerCenter{
+  border: 1px solid #080808;
+  box-shadow: -2px 0px 3px #888888, 2px 2px 3px #888888;
+  left: 50px;
+  right: 50px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .App {
+  width: 500px;
+  margin: 0 auto;
   text-align: center;
 }
 
