@@ -1,0 +1,15 @@
+# buat my-app baru menggunakan npx create-react-app [nama-direktori]
+# npm install redux
+# siapkan folder khusus store (redux)
+# buat function di folder tersebut untuk menyimpan store
+# buat file index.js
+# di terminal, masuk ke my-app/src/store
+# jalankan dengan node index
+
+PART 2
+# buat folder my-app-new
+# buat file index.html
+# buat file script.js
+
+REACT REDUX
+# npm install react-redux

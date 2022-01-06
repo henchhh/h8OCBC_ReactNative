@@ -1,0 +1,7 @@
+# mkdir my-app
+# cd my-app 
+# npm install react@16
+# npm install react-router-dom@5
+
+UPDATE PACKAGE
+# npm install react@17

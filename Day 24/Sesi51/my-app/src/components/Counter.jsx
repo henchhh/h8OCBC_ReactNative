@@ -34,11 +34,11 @@ function Counter() {
     }
 
     return(
-        <div>
-            <h2>Let's count</h2>
+        <div className="text-center">
+            <h2 className="fs-1 text-primary">Let's count</h2>
             <h3>{ counter }</h3>
-            <button onClick={()=> counter!==10 ? setCounter(counter+1) : setCounter(0)} style={{fontSize: '2em'}}>Click me</button>
-            <button onClick={setCounterZero} style={{fontSize: '2em'}}>Reset</button>
+            <button type="button" className="btn btn-primary btn-lg mr-5" onClick={()=> counter!==10 ? setCounter(counter+1) : setCounter(0)}>Click me</button>
+            <button type="button" className="btn btn-warning btn-lg" onClick={setCounterZero}>Reset</button>
         </div>
     )
 }
