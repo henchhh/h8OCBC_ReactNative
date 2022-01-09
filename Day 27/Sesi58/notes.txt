@@ -1,0 +1,13 @@
+# pakai my-app Sesi56 Day 26
+# npm run build
+# npm install -g netlify-cli
+# netlify deploy
+# pilih Create & configure a new site pakai panah
+# tekan enter
+# masukan site 013-dean-react-ocbc 
+# tekan enter
+# Masukkan direktori C:\Users\deand\Documents\h8OCBC_ReactNative\Day 26\Sesi56\my-app\build
+
+# Link draf = https://61d6a782141e31a8423a11d3--013-dean-react-ocbc.netlify.app/
+
+# netlify deploy --prod

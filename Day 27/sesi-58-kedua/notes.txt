@@ -1,0 +1,6 @@
+# npx create-react-app sesi-58-kedua
+# "test": "react-scripts test --coverage" di package.jsob
+# npm i react-router-dom@5
+# Ubah isi App.test.js sesuai slide 10 Sesi 27
+# npm run test
+# 

@@ -1,1 +1,2 @@
 # Menggunakan my-app Sesi56 Day 26
+# npm install redux-thunk

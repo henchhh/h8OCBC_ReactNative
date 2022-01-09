@@ -7,6 +7,7 @@ import logger from 'redux-logger'
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import counterReducer from './reducers/counterReducer';
 import queueReducer from './reducers/queueReducer';
+import thunk from 'redux-thunk'
 
 // // 1. [initial] state
 // const initialState = {
@@ -39,7 +40,7 @@ const rootReducer = combineReducers({
 })
 
 // // 3. createStore()
-const middleware = applyMiddleware(logger)
+const middleware = applyMiddleware(thunk, logger)
 const store = createStore(rootReducer, compose(
     middleware, 
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))
